@@ -1,5 +1,5 @@
 ---
-title: "Decentralised Self Organisation of 315 Submarines"
+title: "Decentralised Self Organisation of 256 Submarines"
 categories:
 excerpt: "A real-time system written in Ada to allow almost senseless submarines to self organise"
 tags:
@@ -10,12 +10,12 @@ tags:
   - Decentralised
 ---
 <figure>
-	<a href="/assets/images/315-boids.png"><img src="/assets/images/315-boids.png"></a>
+	<a href="/assets/images/256-boids.png"><img src="/assets/images/256-boids.png"></a>
 </figure>
 
 As part of [comp2310](https://web.archive.org/web/20190407170849/https://cs.anu.edu.au/courses/comp2310/) I got to write the brains for a school of underwater vehicles (I'll call them vehicles to be brief). This already sounds hard, but it was made almost impossible by the fact that we were going to do it in [Ada](https://en.wikipedia.org/wiki/Ada_(programming_language)). There was a steep withdraw rate in the course. 
 
-The challenge was organising underwater vehicles such that they shared a “recharging station” (orb) efficiently. Additional challenges were that the vehicles needed to organise themselves through communication, they had extremely short communication distance and they had equally short visual acuity (for spotting the orb). When a vehicle comes into contact with the orb it is instantly recharged. My solution was to have the vehicles organise themselves into a [fibonacci spiral](https://www.sciencedirect.com/science/article/abs/pii/0025556479900804?via%3Dihub) embedded onto the [surface of a sphere](https://bduvenhage.me/geometry/2019/07/31/generating-equidistant-vectors.html#:~:text=Summary,three%20points%20to%20the%20sphere.) with the orb at the top. Vehicles from the bottom of the sphere would then accelerate through the centre of the sphere and out the top (touching the orb) in order to recharge. Once charged, the vehicles would make their way back down from the top of the sphere to the bottom in order to repeat the process. This maxed out the number of vehicles far beyond any other technique at easily supporting 315 vehicles stably.
+The challenge was organising underwater vehicles such that they shared a “recharging station” (orb) efficiently. Additional challenges were that the vehicles needed to organise themselves through communication, they had extremely short communication distance and they had equally short visual acuity (for spotting the orb). When a vehicle comes into contact with the orb it is instantly recharged. My solution was to have the vehicles organise themselves into a [fibonacci spiral](https://www.sciencedirect.com/science/article/abs/pii/0025556479900804?via%3Dihub) embedded onto the [surface of a sphere](https://bduvenhage.me/geometry/2019/07/31/generating-equidistant-vectors.html#:~:text=Summary,three%20points%20to%20the%20sphere.) with the orb at the top. Vehicles from the bottom of the sphere would then accelerate through the centre of the sphere and out the top (touching the orb) in order to recharge. Once charged, the vehicles would make their way back down from the top of the sphere to the bottom in order to repeat the process. This maxed out the number of vehicles far beyond any other technique at easily supporting 256 vehicles stably.
 
 Although I came up with this idea early, I delayed committing to it because I knew it would be difficult to develop.
 My first thought was to simply try getting the vehicles to go round in a ring, hitting the orb one by one: 
@@ -38,8 +38,8 @@ This approach was okay, but clearly could be improved on as there was an entire 
 
 Using this simulation I was able to debug the logic which I would use in my final Ada code. The benefit of using these [p5js](https://p5js.org/) interactive animations was that they were incredibly quick to build and debug. This meant that I could have a very fast "run, change, observe" debugging loop, and the logic of my code was ready in a few hours. Though I had very minor bugs when transitioning this to the Ada code, debugging them was far slower because the compilation was about three orders of magnitude longer, and I had less control over the simulation due to poor documentation. 
 
-It's very hard to see what the ships are doing where there are 315 of them, and it looks (misleadingly) chaotic. Here's what and older version[^1] looks like with 256 vehicles:
+It's very hard to see what the ships are doing where there are 256 of them, and it looks (misleadingly) chaotic. Here's what and older version[^1] looks like with 256 vehicles:
 
 
 
-[^1]: Unfortunately I can no longer compile my code as an update to MacOS broke the make file. 
+[^1]: Unfortunately I can no longer compile my code as an update to MacOS broke the make file. So I'm left with an older executable which was less optimised (the optimisation was actually just to slow down the movement of the vehicles, and stop them from moving in an unnecessarily jerky way, as well as tuning the timing very slightly).
