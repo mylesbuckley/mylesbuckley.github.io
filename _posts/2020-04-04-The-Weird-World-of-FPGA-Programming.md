@@ -7,5 +7,6 @@ tags:
   - FPGA
   - Basys3
   - Vivado
+  - VHDL
 draft: true
 ---
