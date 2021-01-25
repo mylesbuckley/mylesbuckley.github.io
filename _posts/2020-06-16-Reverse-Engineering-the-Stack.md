@@ -6,6 +6,6 @@ tags:
   - Incomplete
   - Stack Overflow
   - Reverse Engineering
-  - ghidra
+  - Ghidra
 draft: true
 ---

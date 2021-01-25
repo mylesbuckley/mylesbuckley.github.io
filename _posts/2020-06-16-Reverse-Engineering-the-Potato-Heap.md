@@ -6,7 +6,7 @@ tags:
   - Incomplete
   - Python
   - pwntools
-  - ghidra
+  - Ghidra
   - Heap Reverse Engineering
   - Reverse Engineering
 draft: true

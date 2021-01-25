@@ -7,6 +7,6 @@ tags:
   - angr
   - Python
   - Reverse Engineering
-  - ghidra
+  - Ghidra
 draft: true
 ---
