@@ -1,8 +1,10 @@
 ---
-title: "This Page Is A Work In Progress"
+title: "Fun With Ray Tracing in Java"
 categories:
 excerpt: "Nothing to see here yet, but stay tuned!"
 tags:
   - Incomplete
+  - Java
+  - Ray Tracing
 draft: true
 ---

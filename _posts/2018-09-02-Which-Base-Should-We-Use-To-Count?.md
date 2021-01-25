@@ -5,7 +5,7 @@ excerpt: "Try out addition and subtraction in any base using this game!"
 tags:
   - p5js
   - comp1720
-  - interactive
+  - Interactive
 ---
 <div style="position: relative; padding-bottom: 56.25%;">
 <iframe src="/assets/html/number-systems.html" title="number systems game should be here" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>

@@ -5,7 +5,7 @@ excerpt: "Code an \"artificially intelligent\" postman with no coding experience
 tags:
   - p5js
   - comp1720
-  - interactive
+  - Interactive
 ---
 
 <style>
