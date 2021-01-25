@@ -29,3 +29,6 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+assets/html/assets/js/long-video-exposure.js
+assets/html/assets/video/boids.mov
+assets/html/long-video-exposure.html
