@@ -1,5 +1,5 @@
 ---
-title: "Implementing-Cholesky-Matrix-Factorisation-on-GPU-in-CUDA"
+title: "Implementing Cholesky Matrix Factorisation on GPU in CUDA"
 categories:
 excerpt: "Nothing to see here yet, but stay tuned!"
 tags:

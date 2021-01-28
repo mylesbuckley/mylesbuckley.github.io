@@ -29,8 +29,8 @@ var congradulationMessages = [
 "Tips fedora",
 "Sensational",
 "*Pat on the back*",
-"Way to go",
-"Bad. Kidding! :P",
+"Way to go!",
+"Awesome! :D",
 "Beautiful",
 ];
 var chosenMessage = "";
@@ -174,11 +174,12 @@ function drawSelectNumberBase(){
 function setChallenge() { //set and addition or subtraction problem 
   coinPile = 0;
   var maxMoney = Math.pow(numberBase,6)-1;
-  var yourMoney = rand(1, maxMoney-1);
+  var yourMoney = -1;
   var addOrSubtract = rand(1,2);
   if (addOrSubtract==1){//add
+    yourMoney = rand(0, maxMoney-1);
     var maxAdd = maxMoney - yourMoney;
-    var add    = rand(1,maxAdd);
+    var add    = rand(1,maxAdd-1);
     var theirMoney = add;
     var yourTargetMoney  = yourMoney + add;
     var theirTargetMoney = 0;
@@ -188,6 +189,7 @@ function setChallenge() { //set and addition or subtraction problem
     console.log("your money: " + yourMoney + " Your target money: " + yourTargetMoney);
     console.log("their money: " + theirMoney + " Their target money: " + theirTargetMoney);
   } else {//subtract
+    yourMoney = rand(1, maxMoney);
     var maxSubtract     = yourMoney+0;
     var subtract        = rand(1,maxSubtract);
     var theirMoney      = rand(0,maxMoney-subtract);
@@ -541,4 +543,8 @@ function drawAbacus(coinStates,abacusX,abacusY,ID)  {
 
   }
 
+}
+
+function keyPressed() {
+  setChallenge();
 }
