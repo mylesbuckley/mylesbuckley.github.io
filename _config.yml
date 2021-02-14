@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "[A Work In Progress...]"
-title_separator          : "title_separator"
+title                    : "My Portfolio Website"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Myles Buckley"
 description              : "A website to showcase my most interesting work."
