@@ -10,6 +10,8 @@ tags:
   - Decentralised
   - p5js
   - Interactive
+  - Start Here
+  - Complete
 ---
 <figure>
 	<a href="/assets/images/256-boids.png"><img src="/assets/images/256-boids.png"></a>

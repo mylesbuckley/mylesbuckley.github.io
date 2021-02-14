@@ -7,6 +7,7 @@ tags:
   - ARMv7
   - comp2300
   - assembly
+  - Complete
 ---
 <figure>
 	<a href="/assets/images/discoboardOS.jpg"><img src="/assets/images/discoboardOS.jpg"></a>
