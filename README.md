@@ -1,4 +1,4 @@
-My portfolio website, built using the 'Minimal Mistakes' Jekyll theme.
+My portfolio website, built using the fantastic Minimal Mistakes Jekyll theme: https://github.com/mmistakes/minimal-mistakes.
 
 
 
