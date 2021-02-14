@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Myles Buckley"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I like to build things, almost as much as I like to take them apart" # "At first I took things apart, now I dream of building them" #
+  bio              : "I like to build things, almost as much as I like to take them apart"
   location         : "Canberra, Australia"
   email            : 
   links:
