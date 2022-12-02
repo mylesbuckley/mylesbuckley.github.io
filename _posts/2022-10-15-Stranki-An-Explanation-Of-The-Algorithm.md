@@ -129,7 +129,7 @@ The first step of exercising the skill "cancel an unknown from two linear equati
 
 42 = 9y - 39x
 
-We could go *even* deeper on the dependencies like "be able to count to 10", or something like that, but I've left that out because my main point was to illustrate what I *mean* when I say that skill 'A' depends on skill 'B'. It means that skill 'A' actively and completely relies on the *use* of skill 'B'. So for example, 'multiply three digit numbers by hand' relies on the *use* of the skill 'add two numbers together'. So it can be said that *if* of know how to 'multiply three digit numbers by hand' *then* you know how to 'add two numbers together'. It can also thus be said that *if* you do not know how to 'add two numbers together' *then* you do not know how to 'multiply three digit numbers by hand'.
+We could go *even* deeper on the dependencies like "be able to count to 10", or something like that, but I've left that out because my main point was to illustrate what I *mean* when I say that skill 'A' depends on skill 'B'. It means that skill 'A' actively and completely relies on the *use* of skill 'B'. So for example, 'multiply three digit numbers by hand' relies on the *use* of the skill 'add two numbers together'. So it can be said that *if* you know how to 'multiply three digit numbers by hand' *then* you know how to 'add two numbers together'. It can also thus be said that *if* you do not know how to 'add two numbers together' *then* you do not know how to 'multiply three digit numbers by hand'.
 
 This is ***the key*** to Stranki. It is so simple, but the *absence* of such simple information has led to a terribly stupid way of doing things.
 
