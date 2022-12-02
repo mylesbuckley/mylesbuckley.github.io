@@ -1,7 +1,7 @@
 # /_data/authors.yml
 Myles Buckley:
   name: "Myles Buckley"
-  avatar: "/assets/images/temp_profile_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "I like to make things that are truly new."
   links:
     - label: "Location"
