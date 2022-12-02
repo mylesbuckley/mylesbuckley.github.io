@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme             : "mylesbuckley/minimal-mistakes"
+remote_theme             : "mylesbuckley/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Stuff I've Made"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Myles Buckley
+name                     : "Myles Buckley"
 description              : "A place where I write about the things I've built in my spare time."
 url                      : "/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
