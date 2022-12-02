@@ -5,7 +5,7 @@ excerpt: "Discover the Swiss cheese holes in your knowledge! Determine Your Unde
 tags:
   - PersonalProject
 ---
-# Analogy: What Else Is It Like?
+# Analogy: (What It's Like)
 
 The current way we teach can lead to "swiss cheese" holes being left in our understanding, and also developing over time (e.g. if you cram for a test, the holes will develop after). If a learning a subject "flat" then these "swiss cheese holes" wouldn't be such a problem.
 
@@ -19,7 +19,7 @@ But what if we were making a 5 storey building, and our chance of messing it up 
 
 In practice, "Hard Skills" like mathematics and programming are more like skyscrapers and very few reach their full potential (in my opinion) *because* defects at the lower layers prevent higher layers being built upon them. The fundamental goal of this software is to develop a method for discovering such defects as easily/rapidly as is *mathematically possible*. Once the defects are discovered, the user can then resolve them one by one, and build their skyscraper of knowledge to new heights!
 
-# Diagram: Engage That Half Of Your Brain
+# Diagram:
 
 Let's imagine that the structure of our understanding looks like so:
 
@@ -66,7 +66,7 @@ It's worth noting, that there's doesn't even exist a list of exercises for *this
 
 The key idea for Stranki is to have the dependencies mapped clearly between the different 'skills', as this prevents you having to resort to the brute force method described above and instead utilize the structure to quickly determine what the user knows.
 
-# Example: Let Me Experience The Idea
+# Example: Experience The Idea
 To get a better idea about what I mean when talk about the 'structure' of knowledge or the 'dependencies' between skills, let's look at an example of eliminating the variable 'z' by combining the two equations below:
 
   1. 111 = 8x + 2y - 5z
@@ -133,7 +133,9 @@ We could go *even* deeper on the dependencies like "be able to count to 10", or 
 
 This is ***the key*** to Stranki. It is so simple, but the *absence* of such simple information has led to a terribly stupid way of doing things.
 
-# Plain-English Description: Use Your Own Words
+# Full Technical
+## (The Actual Idea!)
+### You'll finally see the actual idea at the end of this section, so hang in there!
 
 So, now that we can see why dependencies are so important and also what they are, let's consider a few ways of determining the state (understood or not understood) of the nodes in the skill dependency tree:
 
