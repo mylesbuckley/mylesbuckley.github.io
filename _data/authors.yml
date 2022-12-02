@@ -1,0 +1,21 @@
+# /_data/authors.yml
+Myles Buckley:
+  name: "Myles Buckley"
+  avatar: "/assets/images/temp_profile_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "I like to make things that are truly new."
+  links:
+    - label: "Location"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "/location.html"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "/email.html"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/myles-buckley-5a4545208"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mylesbuckley"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone"
+      url: "/phonenumber.html"
