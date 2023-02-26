@@ -1,7 +1,7 @@
 ---
-title: "Incremental Chinese (App)"
+title: "Incrementalese"
 categories:
-excerpt: "Download it now, and use it to effortlessly learn Chinese by watching your favorite movies!"
+excerpt: "Coming soon to a browser near you..."
 header:
   teaser: "/assets/images/incrementalchinesethumbnail.png"
   videoSelfHosted: "/assets/images/ContinualSwitchingSmallSampleClip.mp4" 
@@ -9,27 +9,27 @@ header:
 
 The way we learn second languages sucks, but I think I've hit on a revolutionary way forward!
 
-I've wanted to learn Chinese for a long time now, but it's a slog! You have to do years (if being learnt in your spare time) of memorization to learn enough of the common words and sentences to start engaging in anything other than *more* flashcards (🤮).
+For example, I've wanted to learn Mandarin for a long time now, but it's a slog! You have to do years (if being learnt in your spare time) of memorization to learn enough of the common words and sentences to start engaging in anything other than *more* flashcards (🤮).
 
-I wanted learning Chinese to be more fun, so I could learn it as a way of relaxing and not as a chore!
+I wanted learning Mandarin to be more fun, so I could learn it as a way of relaxing and not as a chore!
 
-Paradoxically, there was plenty of reward from my learning Chinese when I got to experience my comprehension of Chinese working in a context which wasn't an app or flashcard. For example, when I briefly understood the conversation in a group of people who speaking Chinese, or some dialogue in a [Chinese TV show](https://en.wikipedia.org/wiki/Reset_(Chinese_TV_series)). The problem is.. this is a *delayed* and *unreliable* source of reward, so it doesn't make the process of learning feel any less of a chore!
+Paradoxically, there was plenty of reward from my learning Mandarin when I got to experience my comprehension of Mandarin working in a context which wasn't an app or flashcard. For example, when I briefly understood the conversation in a group of people who speaking Mandarin, or some dialogue in a [Chinese TV show](https://en.wikipedia.org/wiki/Reset_(Chinese_TV_series)). The problem is.. this is a *delayed* and *unreliable* source of reward, so it doesn't make the process of learning feel any less of a chore!
 
-But it did get me thinking.. what if I could find a way of utilizing this kind of rewarding exposure to spoken Chinese, where I understood what was being said and it was also interesting because unlike flashcards or an app it corresponded to a context more meaningful than "correctly remembered". 
+But it did get me thinking.. what if I could find a way of utilizing this kind of rewarding exposure to spoken Mandarin, where I understood what was being said and it was also interesting because unlike flashcards or an app it corresponded to a context more meaningful than "correctly remembered". 
 
 My initial thought was to watch progressively more advanced TV shows, and increase my comprehension "naturally". This would mean starting at TV shows for babies and working my way up. Unfortunately, TV shows for babies are still actually quite hard and also not very interesting! I would be able to understand about 20-30% of what was being said, but it never made any sense because the sentences I did understand were interspersed with sentences that meant nothing to me. So the context of the sentences I did understand was lost, so I was actually at level of reward *worse* than the "you got it right" the flash cards and apps were able to provide.
 
 # TL;DR: The Idea
 
-I cant learn Chinese by just watching Movies/TV shows in Chinese, I wouldn't understand what was being said and it would just be another painful slog. But what if I could watch a TV show or movie and have the characters talk in English most of the time, and talk in Chinese when I would understand what they would say? I would be reinforcing my understanding of the Chinese I did know and it would also present a natural way to learn new Chinese words, grammars and turns of phrase. For example, if I was watching a movie about submarines, the Chinese word for submarine "潜艇", "Qiántǐng" would be a good candidate for a word to learn.
+I cant learn Mandarin by just watching Movies/TV shows in Mandarin, I wouldn't understand what was being said and it would just be another painful slog. But what if I could watch a TV show or movie and have the characters talk in English most of the time, and talk in Mandarin when I would understand what they would say? I would be reinforcing my understanding of the Mandarin I did know and it would also present a natural way to learn new words, grammars and turns of phrase. For example, if I was watching a movie about submarines, the word for submarine "潜艇", "Qiántǐng" would be a good candidate for a word to learn.
 
-It would be very rewarding because I would have those moments where I comprehend what people were saying in Chinese, in a context that was interesting, and the rest of the time I would just be watching the same movie or TV show that I wanted to watch anyway!
+It would be very rewarding because I would have those moments where I comprehend what people were saying in Mandarin, in a context that was interesting, and the rest of the time I would just be watching the same movie or TV show that I wanted to watch anyway!
 
-So, I wrote the software! It's called ["Incremental Chinese"](https://github.com/mylesbuckley/incremental-chinese), because the movies and TV shows you watch will _incrementally_ contain more and more Chinese, until they are 100% Chinese and you are fluent!
+So, I wrote the software! It's called "Incrementalese", because the movies and TV shows you watch will _incrementally_ contain more and more of the language you are trying to learn, until they are 100% that language and you are fluent!
 
 # I'll Notice The Switching!
 
-See for yourself: here's an example using ["Castle In The Sky"](https://en.wikipedia.org/wiki/Castle_in_the_Sky) where the software switches between English and Chinese vocals as fast as it can! While this is not a particularly meaningful use case for learning, it does stress test the ability of the software to create a 'pleasant to watch' clip.
+See for yourself: here's an example using ["Castle In The Sky"](https://en.wikipedia.org/wiki/Castle_in_the_Sky) where the software switches between English and Mandarin vocals as fast as it can! While this is not a particularly meaningful use case for learning, it does stress test the ability of the software to create a 'pleasant to watch' clip.
 
 <figure>
   <video controls class="page__hero-image">
@@ -42,7 +42,7 @@ It's cliche among developers, but there *are* fixes in the works to improve the 
 
 # What Would a First Time User See?
 
-Here's an excerpt of what you would see if you were just starting your journey of learning Chinese (i.e. you know nothing!) with ['Castle in the Sky'](https://en.wikipedia.org/wiki/Castle_in_the_Sky) and chose to learn the words: 
+Here's an excerpt of what you would see if you were just starting your journey of learning Mandarin (i.e. you know nothing!) with ['Castle in the Sky'](https://en.wikipedia.org/wiki/Castle_in_the_Sky) and chose to learn the words: 
  - 巴鲁 "Bālǔ" (main character "Pazu")
  - 希达 "Xīdá" (main character "Sheeta")
  - 拉普达 "Lāpǔdá" (Laputa, *The* 'Castle in the Sky')
@@ -102,7 +102,7 @@ A -&gt; B if C which are: D-E-F G
  - A: The number you will enter into the terminal to select this group of words
  - B: The number of words you will newly hear if you learn this group of words
  - C: The number of words in the group of words you are considering to learn
- - D: The 'Token' (this just means "The Chinese characters which are used to write the word")
+ - D: The 'Token' (this just means "The Mandarin characters which are used to write the word")
  - E: The 'Tag' for the 'Token'. This indicates how the token is being used. 
    - It helps the program differentiate different uses of the same token.
    - For example, consider the English word 'bark', it can be used multiple ways "a dog can bark" and "a tree has bark". The 'Tag' means the software will never take your understanding of "a dog can bark" and mistakenly assume you know what 'bark' is with regard to trees!
@@ -143,12 +143,12 @@ The software will now generate the output movie in about a minute. This is possi
 Congratulations! You can now watch the movie ("FinalProduct.mp4") and hopefully learn something while you do!🎉🎉
 
 # Can I Use This To Learn Language X?
-Yes! ...If X=Chinese and your native language is English, otherwise *not yet*! This will likely become a real possibility if/when I change the NLP engine from being a local one to something more like Googles NLP API.
+Yes! ...but I need some time to bring this to Azure and ironing out the wrincles of getting access to copyrighted material. Hold tight, it will be here soon!
 
 # What's Happening Internally
-Roughly speaking, it uses the subtitles for a movie to determine what sentences (well, whatever you call the length of speech that fits in a subtitle) you will understand. It then switches to the Chinese audio for the movie when it gets to a subtitle you would understand, and then afterwards switches back, easy! Or so you would think! (😭)
+Roughly speaking, it uses the subtitles for a movie to determine what sentences (well, whatever you call the length of speech that fits in a subtitle) you will understand. It then switches to the Mandarin audio for the movie when it gets to a subtitle you would understand, and then afterwards switches back, easy! Or so you would think! (😭)
 
-It turns out there's a lot more to making this into a *quality* experience you would both *want* to participate in and which will *optimally* teach you Chinese. Spoiler alert, the software isn't there yet, but it has come a long way!
+It turns out there's a lot more to making this into a *quality* experience you would both *want* to participate in and which will *optimally* teach you Mandarin. Spoiler alert, the software isn't there yet, but it has come a long way!
 
 Read on for the gorey details about the technical challenges (this is the fun part)..
 
@@ -159,9 +159,9 @@ These are in order of "most interesting", not chronological.
 
 ## Interactively Determining Words to Learn
 This was a tricky problem, let me set the scene:
-We want to be able to switch between Chinese and English, but we can't always do that at the sentence/subtitle level because there is not a clean break to switch from one to the other. 
+We want to be able to switch between Mandarin and English, but we can't always do that at the sentence/subtitle level because there is not a clean break to switch from one to the other. 
 ( | = talking and . = not talking)
-Chinese Vocal Track (1)
+Mandarin Vocal Track (1)
 English Vocal Track (2)
 ``1:.....|||||||..|||||..||....|||||.||||||.||....``
 ``2:....|||||..||||||.||.......||||..||||.|||.....``
@@ -169,14 +169,14 @@ English Vocal Track (2)
 As you can see, even though there are tons of breaks in the original audio of each, there are far less common breaks.
 ( | = talking in at least one track and . = not talking in both tracks)
 
-Chinese Vocal Track (1)
+Mandarin Vocal Track (1)
 English Vocal Track (2)
 Chi&Eng Vocal Track (3)
 ``1:.....|||||||..|||||..||....|||||.||||||.||....``
 ``2:....|||||..||||||.||.......||||..||||.|||.....``
 ``3:....||||||||||||||||.||....|||||.|||||||||....``
 
-This matters for our problem, because we can no longer think of understanding an entire single subtitle/sentence as the smallest unit, instead the smallest unit is actually a "talking-period". So, if you want to show any of the Chinese in a talking-period, the user must be able to understand all of the Chinese in that talking-period.
+This matters for our problem, because we can no longer think of understanding an entire single subtitle/sentence as the smallest unit, instead the smallest unit is actually a "talking-period". So, if you want to show any of the Mandarin in a talking-period, the user must be able to understand all of the Mandarin in that talking-period.
 
 Back to our problem of helping the user choose new words to learn for a specific movie. The first approach is to simply go through all the sentences in the movie and find all the words that the user does not understand. Then, for each of these words determine how many times the user would hear the new word in this movie if they decided to learn it. The user could then choose from the words that which would be heard to most, which words they would like to learn before watching this movie.
 
@@ -213,7 +213,7 @@ When this is then combined with caching the results of computations that would o
 
 ## Getting Better NLP Results
 
-In order to get the unique words in a Chinese sentence, I need to run the sentences through an NLP engine (a neural net, NN) to get information about it. The problem is, if I do the subtitles one at a time I get somewhat poor results. The neural networks (in part) use the contents of the input sentence to determine the results. If a word that was not in the NN's training set occurs in the input, it has to be able to determine what it is. Thus, it helps the NN to see the largest possible chunk of text possible when making a prediction. This way it can see more uses of the unknown word and make a more accurate guess.
+In order to get the unique words in a Mandarin sentence, I need to run the sentences through an NLP engine (a neural net, NN) to get information about it. The problem is, if I do the subtitles one at a time I get somewhat poor results. The neural networks (in part) use the contents of the input sentence to determine the results. If a word that was not in the NN's training set occurs in the input, it has to be able to determine what it is. Thus, it helps the NN to see the largest possible chunk of text possible when making a prediction. This way it can see more uses of the unknown word and make a more accurate guess.
 
 The problem is, the text I want to analyze comes in sentence form and giving these sentences one by one to the NN makes life easier code-wise, but gives poor results. What I want to be able to do is combine all the sentences into one super long string and then feed that string to the NN and then take the output and associate it with each input sentence. Unfortunately, running the neural net to process such a long string of characters at once is not possible on my GPU as it overwhelms the 12Gb of memory.
 
@@ -292,7 +292,7 @@ This was a strange problem, in that I had assumed going in that it should have a
 # Less Sexy Problems
 ## Finding utilities to do the fundamental media operations of cutting and concatenating audio clips reliably. 
 This required the use of sox for the concatenation of audio clips and ffmpeg for everything else.
-For the overlaying of two audio tracks (e.g. English verbals on Chinese background audio) it looked like this:
+For the overlaying of two audio tracks (e.g. English verbals on Mandarin background audio) it looked like this:
 ```csharp
 sh.RunCommandWithZsh
 (
@@ -317,7 +317,7 @@ sh.RunCommandWithZsh
     $" {tempOutputFilePath}"
 );
 ```
-For the creation of transition clips (e.g. change from English to Chinese during a period of non-talking) it looked like this:
+For the creation of transition clips (e.g. change from English to Mandarin during a period of non-talking) it looked like this:
 ```csharp
 sh.RunCommandWithZsh
 (
@@ -390,7 +390,7 @@ sh.RunCommandWithZsh
 ```
 
 ## Changing between the two versions of the movie was noticeable because the background music was different for each.
-This was fixed by using spleeter to separate the vocals (i.e. people speaking) from the background (explosions, music, chewing sounds etc). Then the vocals for the english track were overlaid onto the background audio track for the Chinese. This eliminated this problem with the switching, although it did introduce an occasional distortion, which is why it was applied to the English track and not the Chinese track, as my brain deals much better with distortions to English than it does with distortions to Chinese.
+This was fixed by using spleeter to separate the vocals (i.e. people speaking) from the background (explosions, music, chewing sounds etc). Then the vocals for the english track were overlaid onto the background audio track for the Mandarin. This eliminated this problem with the switching, although it did introduce an occasional distortion, which is why it was applied to the English track and not the Mandarin track, as my brain deals much better with distortions to English than it does with distortions to Mandarin.
 ```csharp
 sh.RunCommandWithZsh
 (
@@ -432,7 +432,7 @@ This became a problem when I wanted to re-run the code from scratch to debug som
 
 # What The Future Holds
 ## Forgetting Curves
-Once the fundamental "mixed movie" making ability of this software is mature enough the next step will be to add the ability to track the users comprehension and exposure to Chinese words (and maybe other aspects of the language) over time. The clear winner for this as I currently understand it is to track each fundamental unit (currently these are just words), with a forgetting curve. This will help the software be more sure as to whether the user actually understands a given word. Forgetting curves are also different for each person and for each thing being remembered, so the code that tracks this will adapt to both with the primary objective always being the user experience.
+Once the fundamental "mixed movie" making ability of this software is mature enough the next step will be to add the ability to track the users comprehension and exposure to Mandarin words (and maybe other aspects of the language) over time. The clear winner for this as I currently understand it is to track each fundamental unit (currently these are just words), with a forgetting curve. This will help the software be more sure as to whether the user actually understands a given word. Forgetting curves are also different for each person and for each thing being remembered, so the code that tracks this will adapt to both with the primary objective always being the user experience.
 ## Voice Conversion
 Currently, when the language changes the voice of the character changes too. This isn't really ideal as it would be better if the voice of the character sounded the same no matter which language they were speaking. There is currently one example of 'Voice Conversion' (VC) from Tencent which looks good enough that is would potentially be an improvement to use VC, all other examples are unfortunately not yet mature enough though. 
 ## Multiple Languages!
@@ -441,7 +441,7 @@ This will likely become a real possibility if/when I change NLP engine from bein
 This might all sound like it would be overwhelming, but how do you feel when someone says "aoy vey" (אוי ואבוי, "Woe") or "très bien" ("very good") in a movie, overwhelmed? I don't because I know what this means, there's no effort expended guessing, and if the software carefully tracks the effort expended (through the forgetting curves), it won't detract from the viewing experience.
 
 ## Interaction During Watching
-I sometimes notice while watching a movie that a phrase is said in English, but I in fact understood the Chinese subtitles. I feel like it would be good to "tag" periods in the movie like this while I'm watching the movie so I could go back and add those sentences as ones I understood when the movie was over. The user interface for this would be super simple, you would just press a button near enough to when it happened and then you would be able to scroll through them later and quickly identify the piece of speech near it which you wanted to use to modify your comprehension of. This could also work for when you didn't understand a sentence which was spoken in Chinese.
+I sometimes notice while watching a movie that a phrase is said in English, but I in fact understood the Mandarin subtitles. I feel like it would be good to "tag" periods in the movie like this while I'm watching the movie so I could go back and add those sentences as ones I understood when the movie was over. The user interface for this would be super simple, you would just press a button near enough to when it happened and then you would be able to scroll through them later and quickly identify the piece of speech near it which you wanted to use to modify your comprehension of. This could also work for when you didn't understand a sentence which was spoken in Mandarin.
 
 ## Movie Libraries
 This would take the learning experience to the next level. The software would be able to see a large library of movies, and would be able to recommend which movies to watch based on their value to your learning. This would of course be done as a secondary stage after you had already selected a collection of movies you were interested in.
@@ -456,7 +456,7 @@ Currently the movie takes a couple of minutes to render, this doesn't need to be
 Often switching tracks is only *just* not possible.
 Consider this:
 
-``|||Chinese||||______||Chinese|||_______``
+``|||Mandarin||||______||Mandarin|||_______``
 
 ``____|||English|||||_____||||English|||_``
 
@@ -464,27 +464,27 @@ Consider this:
 
 ``English Silence_->_*****_______________``
 
-``______________******_<-_Chinese_Silence``
+``______________******_<-_Mandarin_Silence``
 
-The ability to hit the middle of the chinese silence and the english silence individually is much easier than having to try and hit the center of the common silence.
-So the new way of transitioning from Chinese to English will be:
+The ability to hit the middle of the Mandarin silence and the english silence individually is much easier than having to try and hit the center of the common silence.
+So the new way of transitioning from Mandarin to English will be:
 
-``|||Chinese||||___<-_Chinese_Ends_______``
+``|||Mandarin||||___<-_Mandarin_Ends_______``
 
 ``____English_Starts_->___||||English|||_``
 
-And the new way of transitioning from English to Chinese will be:
+And the new way of transitioning from English to Mandarin will be:
 
-``Chinese_Starts_->___||Chinese|||_______``
+``Mandarin_Starts_->___||Mandarin|||_______``
 
 ``____|||English|||||___<-_English_Stops_``
 
-This will enable a lot more fine grained switching, which will mean that talking periods can have smaller amounts of speech in them. This will mean that more Chinese can be shown, because it will be possible to show more talking periods even when you don't know many words. For example if you only knew "Hey Patsu" then the splitting of the talking period "Hey Patsu! Did you bring my dinner?" into "Hey Patsu!" and "Did you bring my dinner?" now means you will be able to hear more Chinese than you were able to previously.
+This will enable a lot more fine grained switching, which will mean that talking periods can have smaller amounts of speech in them. This will mean that more Mandarin can be shown, because it will be possible to show more talking periods even when you don't know many words. For example if you only knew "Hey Patsu" then the splitting of the talking period "Hey Patsu! Did you bring my dinner?" into "Hey Patsu!" and "Did you bring my dinner?" now means you will be able to hear more Mandarin than you were able to previously.
 
 ## Slight Shifting of Vocals 
 Sometimes, a very slight overlap of the vocal tracks is unavoidable using the techniques thus far described. In these circumstances though, it may still be possible to enable switching with just a simple subtle shifting of the vocal tracks. Consider the example from before:
 
-``|||Chinese||||______||Chinese|||_______``
+``|||Mandarin||||______||Mandarin|||_______``
 
 ``____|||English|||||_____||||English|||_``
 
@@ -492,11 +492,11 @@ Sometimes, a very slight overlap of the vocal tracks is unavoidable using the te
 
 ``English_Silence_->_*****_______________``
 
-``______________******_<-_Chinese_Silence``
+``______________******_<-_Mandarin_Silence``
 
 The previous technique works well in this scenario, but what if the common silence was zero?:
 
-``|||Chinese||||_____||Chinese|||________``
+``|||Mandarin||||_____||Mandarin|||________``
 
 ``_____|||English|||||_____||||English|||``
 
@@ -504,25 +504,25 @@ The previous technique works well in this scenario, but what if the common silen
 
 ``English_Silence_->__*****______________``
 
-``______________*****_<-_Chinese_Silence_``
+``______________*****_<-_Mandarin_Silence_``
 
-We can still do the transition from Chinese to English using the previous technique:
+We can still do the transition from Mandarin to English using the previous technique:
 
-``|||Chinese||||___<-_Chinese_Ends_______``
+``|||Mandarin||||___<-_Mandarin_Ends_______``
 
 ``_____English_Starts_->___||||English|||``
 
-But when we try and use the previous technique for the English to Chinese transition we run into trouble:
+But when we try and use the previous technique for the English to Mandarin transition we run into trouble:
 
-``Chinese_Starts->___||Chinese|||________``
+``Mandarin_Starts->___||Mandarin|||________``
 
 ``_____|||English|||||___<-_English_Stops``
 
 ``___________________|_<-_Speech_Overlap_``
 
-But, why not simply subtly shift the audio of both the English and Chinese talking chunks to the (left and the right respectively) just *a little*. This would prevent the overlap, and allow for a more fine grained (and thus greater overall quantity!) introduction of Chinese speech.
+But, why not simply subtly shift the audio of both the English and Mandarin talking chunks to the (left and the right respectively) just *a little*. This would prevent the overlap, and allow for a more fine grained (and thus greater overall quantity!) introduction of Mandarin speech.
 
-``Chinese_Starts_->___||Chinese|||_______``
+``Mandarin_Starts_->___||Mandarin|||_______``
 
 ``____|||English|||||___<-_English_Stops_``
 
@@ -531,11 +531,11 @@ But, why not simply subtly shift the audio of both the English and Chinese talki
 This hopefully won't be needed, and I'm actually quite hesitant about introducing it on the principle that it could negatively affect the viewing experience. The most important thing is that watching movies with this software *never* feel any less enjoyable than watching them the regular way!
 
 ## Sentiment Aware Substitution
-A potential problem when substituting a chunk of English speech with a chunk of Chinese speech is that they are saying things that are different, and different in a way which matters (i.e. it's not just that one say's "hello" and the other says "good morning"). 
+A potential problem when substituting a chunk of English speech with a chunk of Mandarin speech is that they are saying things that are different, and different in a way which matters (i.e. it's not just that one say's "hello" and the other says "good morning"). 
 
 It would also mean that you wouldn't substitute a sentence with another sentence which means something very different (thus disrupting the flow of things). Such periods of sentiment divergence would need to be replaced in whole such that a transition can then occur where sentiment is shared.
 Consider these sentences which may be said consecutively:
-- in Chinese: 
+- in Mandarin: 
   - Person1: 
     - "What have you been up to?"
   - Person2: 
@@ -558,22 +558,22 @@ Consider these sentences which may be said consecutively:
   - Person1:
     - "Well, I'll see you at dinner!"
 - Botched Substitution: 
-  - (Chinese) Person1: 
+  - (Mandarin) Person1: 
     - "What have you been up to?"
-  - (Chinese) Person2: 
+  - (Mandarin) Person2: 
     - "Now much, just been enjoying my time in the sun!"
   - (English) Person1: 
     - "Are you and Susie coming to dinner tonight?"
-  - (Chinese) Person2: 
+  - (Mandarin) Person2: 
     - "oh tons of sunscreen." 
-  - (Chinese) Person1: 
+  - (Mandarin) Person1: 
     - "Well, I'll see you later at dinner!"
 
 ## Double Speak
-This is a problem where a person will say a (usually short) phrase in English and then the switching software will switch to saying it again in Chinese. This is because up to the point that the small Chinese vocal chunk was said none of the Chinese was comprehended, so the software showed everything in English. But this also included the English version of small Chinese vocal chunk, so you get a disconcerting experience of the character saying the same thing twice like they're glitching. The simple fix to this is to "link" every subtitle from the English version to its corresponding one in the Chinese version. This can be done by first linking the ones with the most overlap, and then the next most overlap and so on until they are all linked. When there is no overlap it is linked to the nearest one. This is done in terms of "ones with the most overlap first" and then "ones which are closest first", and so on until they are all linked. Some may end up not being linked, I'll have to think about that possibility..
+This is a problem where a person will say a (usually short) phrase in English and then the switching software will switch to saying it again in Mandarin. This is because up to the point that the small Mandarin vocal chunk was said none of the Mandarin was comprehended, so the software showed everything in English. But this also included the English version of small Mandarin vocal chunk, so you get a disconcerting experience of the character saying the same thing twice like they're glitching. The simple fix to this is to "link" every subtitle from the English version to its corresponding one in the Mandarin version. This can be done by first linking the ones with the most overlap, and then the next most overlap and so on until they are all linked. When there is no overlap it is linked to the nearest one. This is done in terms of "ones with the most overlap first" and then "ones which are closest first", and so on until they are all linked. Some may end up not being linked, I'll have to think about that possibility..
 
 ## A GUI Which is Not a CLI
 I'm hesitant to do this any time soon, as I see it as a distraction from the important problems which actually need to be solved, and something which can be easily done once the core technologies are developed. In the meantime it would simply be just another thing which I would have to worry about when writing my code, which is obviously a waste of time.
 
 # Fair Use: ['Castle in The Sky'](https://en.wikipedia.org/wiki/Castle_in_the_Sky)
-I believe I am using clips from this movie under 'fair use' as it is described in Australian law, as I understand it to be that the development of this software fits under 'research'. This article is also arguably a kind of 'review', as it describes how the particulars of the movie (e.g. how Muska and the General talk to each other) have affected the development of this software and the usability of this movie for learning Chinese using this software. For more information, see the Australian Copyright Act 1968.
+I believe I am using clips from this movie under 'fair use' as it is described in Australian law, as I understand it to be that the development of this software fits under 'research'. This article is also arguably a kind of 'review', as it describes how the particulars of the movie (e.g. how Muska and the General talk to each other) have affected the development of this software and the usability of this movie for learning Mandarin using this software. For more information, see the Australian Copyright Act 1968.
