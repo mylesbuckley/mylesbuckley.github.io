@@ -1,7 +1,7 @@
 ---
 title: "Stranki"
 categories:
-excerpt: "Discover the Swiss cheese holes in your knowledge! Determine Your Understanding of N Things in O(Log(N))! In this post I explain the algorithm."
+excerpt: "An Algorithm to Determine Someones Understanding of N Things in O(Log(N))"
 tags:
   - PersonalProject
 ---
